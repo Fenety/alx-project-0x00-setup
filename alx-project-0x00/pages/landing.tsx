@@ -21,7 +21,7 @@ const Landing: React.FC = () => {
                 <div className="flex items-center space-x-4">
                     <Button title="Square" styles="py-2 px-4 rounded-sm" />
                     <Button title="Rounded" styles="py-2 px-4 rounded-md" />
-                    <Button title="Pill Shape" styles="py-2 px-4 rounded-full" />
+                    <Button title="Pill Shape" styles="py-2 px-4 rounded-lg" />
                 </div>
             </div>
         </div>
