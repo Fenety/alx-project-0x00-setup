@@ -4,5 +4,6 @@ export interface PillProps {
 
 export interface ButtonProps {
   title: string;  // The text to display on the button
-  styles: string; // A string of Tailwind CSS classes for customization
+  size?: 'small' | 'medium' | 'large'; // Optional size prop
+  shape?: 'square' | 'rounded' | 'pill'; // Optional shape prop
 }

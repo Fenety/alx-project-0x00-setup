@@ -13,20 +13,21 @@ const Landing: React.FC = () => {
                 
                 {/* --- Different Sizes --- */}
                 <div className="flex items-center space-x-4">
-                    <Button title="Small Button" styles="py-1 px-3 text-sm rounded-md" />
-                    <Button title="Medium Button" styles="py-2 px-4 text-base rounded-md" />
-                    <Button title="Large Button" styles="py-3 px-6 text-lg rounded-md" />
+                    <Button title="Small Button" size="small" />
+                    <Button title="Medium Button" size="medium" />
+                    <Button title="Large Button" size="large" />
                 </div>
 
                 {/* --- Different Shapes --- */}
                 <div className="flex items-center space-x-4">
-                    <Button title="Square" styles="py-2 px-4 rounded-sm" />
-                    <Button title="Rounded" styles="py-2 px-4 rounded-md" />
-                    <Button title="Pill Shape" styles="py-2 px-4 rounded-full" />
+                    <Button title="Square" shape="square" />
+                    <Button title="Rounded" shape="rounded" />
+                    <Button title="Pill Shape" shape="pill" />
                 </div>
             </div>
         </div>
     )
+
 }
 
 
